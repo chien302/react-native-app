@@ -36,6 +36,8 @@ import PhoneNumber from './src/screens/auth/components/PhoneNumber';
 import Avatar from './src/screens/auth/components/Avatar';
 import MyTabs from './src/navigator/MyTabs';
 import StackNavigation from './src/navigator/StackNavigation';
+import MessengerScreen from './src/screens/messenger/MessengerScreen';
+import ChatScreen from './src/screens/chat/ChatScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -58,6 +60,8 @@ function App(): JSX.Element {
         <Stack.Screen name='CreateFullname' component={Fullname} />
         <Stack.Screen name='CreatePhoneNumber' component={PhoneNumber} />
         <Stack.Screen name='CreateAvatar' component={Avatar} />
+        <Stack.Screen name='MessengerScreen' component={MessengerScreen} />
+        <Stack.Screen name='ChatScreen' component={ChatScreen} />
 
         <Stack.Screen name='Tabs' component={MyTabs} />
       </Stack.Navigator>

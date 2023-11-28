@@ -12,6 +12,7 @@ import Fullname from '../screens/auth/components/Fullname';
 import PhoneNumber from '../screens/auth/components/PhoneNumber';
 import Avatar from '../screens/auth/components/Avatar';
 import MyTabs from './MyTabs';
+import MessengerScreen from '../screens/messenger/MessengerScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -27,6 +28,8 @@ const StackNavigation = () => {
         <Stack.Screen name='CreateFullname' component={Fullname} />
         <Stack.Screen name='CreatePhoneNumber' component={PhoneNumber} />
         <Stack.Screen name='CreateAvatar' component={Avatar} />
+
+
 
         <Stack.Screen name='Tabs' component={MyTabs} />
       </Stack.Navigator>

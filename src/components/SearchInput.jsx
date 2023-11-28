@@ -20,7 +20,7 @@ const SearchInput = ({ clicked, searchInputValue, setSearchInputValue }) => {
         {/* Input field */}
         <TextInput
           style={styles.input}
-          placeholder="Search"
+          placeholder="Tìm kiếm"
           value={searchInputValue}
           onChangeText={setSearchInputValue}
           placeholderTextColor={ConfigColor.BLACK}
