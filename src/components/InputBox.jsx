@@ -36,10 +36,9 @@ const styles = StyleSheet.create({
   },
   textInput: {
     borderWidth: 1,
-    width: 350,
     borderColor: 'grey',
-    borderRadius: 8,
-    paddingHorizontal: 10,
+    borderRadius: 11,
+    paddingHorizontal: 15,
     color: ConfigColor.BLACK
 
 
